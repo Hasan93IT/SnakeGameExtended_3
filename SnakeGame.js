@@ -1,6 +1,6 @@
 /* global THREE */
 
-
+import * as THREE from 'https://unpkg.com/three@<version>/build/three.module.js' 
 // * Initialize webGL
 const canvas = document.getElementById("myCanvas");
 const renderer = new THREE.WebGLRenderer({
